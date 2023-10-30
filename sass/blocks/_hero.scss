@@ -1,0 +1,43 @@
+.hero{
+    padding: 70px 0;
+
+    &__subtitle{
+        color: #E87D0E;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 155.2%;
+        margin-bottom: 17px; 
+    }
+    &__title{
+        color: #FFF;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 155.2%;
+        width: 500px;
+        margin-bottom: 26px;
+    }
+    &__text{
+        width: 527px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 200%;
+        padding-bottom: 50px;
+    }
+    &__btn{
+        border-radius: 40px;
+        // background: linear-gradient(92deg, #FA8305 2.08%, #FB9E3C 117.25%);
+        background-color: #E87D0E;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 15px 30px;
+        transition: all 0.5s;
+        border: 1px solid transparent;
+
+        &:hover{
+            background-color: transparent;
+            border: 1px solid #E87D0E;
+        }
+    }
+}

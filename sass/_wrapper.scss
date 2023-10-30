@@ -1,0 +1,25 @@
+.wrapper{
+    background-image: url("../images/joy_stick\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+    position: relative;
+    width: 1340px;
+    margin: 0 auto;
+    
+    &__img1{
+        position: absolute;
+        top: 370px;
+        left: 549px;
+    }
+    &__img2{
+        position: absolute;
+        right: 250px;
+        top:202px;
+    }
+
+    &__img3{
+        position: absolute;
+        top: 190px;
+        right: 510px;
+    }
+}

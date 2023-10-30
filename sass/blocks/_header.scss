@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    max-width: 1320px;
+    margin: 0 auto;
+
+    &__logo{
+        color: #FFF;
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 153.5%;
+        text-transform: uppercase;
+    }
+    &__nav{
+        margin-left: auto;
+        
+        &-list{
+            display: flex;
+            align-items:center;
+            gap: 88px;
+            
+            &--button{
+                a{
+                    border: none;
+                    border-radius: 6px;
+                    background: #FA9021;
+                    padding: 10px 27px;
+                    border: 2px solid transparent;
+                }
+
+                &:hover a{
+                    background-color: transparent;
+                    border: 2px solid #DC7000;
+
+                }
+            }
+            a {
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+                padding-bottom: 7px;
+                border-bottom: 2px solid transparent;
+                transition: all 0.5s;
+
+                &:hover{
+                    border-bottom: 2px solid #DC7000;
+                   
+                }
+            }
+        }
+    }
+}
